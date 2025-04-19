@@ -20,7 +20,7 @@ python-quiz/
 🚀 Installation
 Clone the repository:
 
-git clone https://github.com/yourusername/python-quiz.git
+git clone https://github.com/mohamed-wa7ba/python-quiz.git
 cd python-quiz
 Ensure you have Python 3.7+ installed:
 
