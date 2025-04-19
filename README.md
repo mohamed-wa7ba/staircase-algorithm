@@ -81,6 +81,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ✉️ Contact
 For questions or feedback:
+A full stack devolper at @baianat
 
 Email: mohamed@baianat.com
 
