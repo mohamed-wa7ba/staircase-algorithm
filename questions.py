@@ -1,0 +1,122 @@
+questions = {
+           1: [
+                {"q": "What is the output of: print(5 + 3 * 2)?",
+                 "o": ["A. 16", "B. 11", "C. 10", "D. 13"], "a": "B"},
+                {"q": "Which data type represents whole numbers?",
+                 "o": ["A. float", "B. str", "C. int", "D. bool"], "a": "C"},
+                {"q": "What keyword defines a function in Python?",
+                 "o": ["A. function", "B. def", "C. func", "D. lambda"], "a": "B"},
+                {"q": "What does bool('0') evaluate to?",
+                 "o": ["A. False", "B. True", "C. None", "D. Error"], "a": "B"},
+                {"q": "How to create an empty list?",
+                 "o": ["A. {}", "B. []", "C. ()", "D. list()"], "a": ["B", "D"]},
+                {"q": "What is the output of 'hi' * 2?",
+                 "o": ["A. hihi", "B. hihihi", "C. hi2", "D. Error"], "a": "A"},
+                {"q": "Which function gets user input?",
+                 "o": ["A. input()", "B. get()", "C. read()", "D. scan()"], "a": "A"},
+                {"q": "Which data type is immutable?",
+                 "o": ["A. list", "B. dict", "C. tuple", "D. set"], "a": "C"},
+                {"q": "What function gets the length of a list?",
+                 "o": ["A. size()", "B. length()", "C. len()", "D. count()"], "a": "C"},
+                {"q": "What is 10 % 3?",
+                 "o": ["A. 3", "B. 1", "C. 0", "D. 3.33"], "a": "B"}
+            ],
+
+            # Level 2: Data Structures (10 questions)
+            2: [
+                {"q": "What is [1, 2, 3][1:]?",
+                 "o": ["A. [1, 2]", "B. [2, 3]", "C. [1, 3]", "D. [1, 2, 3]"], "a": "B"},
+                {"q": "How to add an item to a list?",
+                 "o": ["A. insert()", "B. append()", "C. add()", "D. push()"], "a": "B"},
+                {"q": "What is {'a':1}.get('b', 0)?",
+                 "o": ["A. 1", "B. 0", "C. None", "D. Error"], "a": "B"},
+                {"q": "How to convert string to integer?",
+                 "o": ["A. int()", "B. str()", "C. float()", "D. number()"], "a": "A"},
+                {"q": "What is set([1,1,2,3])?",
+                 "o": ["A. [1,2,3]", "B. {1,2,3}", "C. (1,2,3)", "D. {1:1,2:2,3:3}"], "a": "B"},
+                {"q": "Which method finds an item's index?",
+                 "o": ["A. find()", "B. search()", "C. index()", "D. locate()"], "a": "C"},
+                {"q": "How to reverse a list?",
+                 "o": ["A. reverse()", "B. [::-1]", "C. flip()", "D. A and B"], "a": "D"},
+                {"q": "What is any([False, True, False])?",
+                 "o": ["A. True", "B. False", "C. None", "D. Error"], "a": "A"},
+                {"q": "How to create a dictionary?",
+                 "o": ["A. {}", "B. dict()", "C. []", "D. A and B"], "a": "D"},
+                {"q": "What does [x**2 for x in range(3)] create?",
+                 "o": ["A. [0,1,4]", "B. [0,1,2]", "C. [1,4,9]", "D. Error"], "a": "A"}
+            ],
+
+            # Level 3: Intermediate (10 questions)
+            3: [
+                {"q": "What is list comprehension?",
+                 "o": ["A. Reading lists", "B. Concise creation", "C. Documentation", "D. Compression"], "a": "B"},
+                {"q": "Difference between == and is?",
+                 "o": ["A. None", "B. == values, is identity", "C. == identity, is values", "D. Different syntax"], "a": "B"},
+                {"q": "Which executes code from string?",
+                 "o": ["A. exec()", "B. eval()", "C. run()", "D. execute()"], "a": "B"},
+                {"q": "How to handle errors?",
+                 "o": ["A. try/catch", "B. try/except", "C. error/handle", "D. catch/throw"], "a": "B"},
+                {"q": "What is map(lambda x: x*2, [1,2,3])?",
+                 "o": ["A. [2,4,6]", "B. map object", "C. Error", "D. None"], "a": "B"},
+                {"q": "Which function sorts a list?",
+                 "o": ["A. sort()", "B. sorted()", "C. order()", "D. A and B"], "a": "D"},
+                {"q": "What does zip() do?",
+                 "o": ["A. Compresses files", "B. Combines iterables", "C. Extracts files", "D. Encrypts data"], "a": "B"},
+                {"q": "What is __init__?",
+                 "o": ["A. Class initializer", "B. Constructor", "C. Special method", "D. All of above"], "a": "D"},
+                {"q": "How to open file for reading?",
+                 "o": ["A. open('file')", "B. open('file','r')", "C. read('file')", "D. A and B"], "a": "D"},
+                {"q": "What is a decorator?",
+                 "o": ["A. Function wrapper", "B. Syntax sugar", "C. Design pattern", "D. All of above"], "a": "D"}
+            ],
+
+            # Level 4: Advanced (10 questions)
+            4: [
+                {"q": "What is a generator?",
+                 "o": ["A. Function with yield", "B. Memory efficient", "C. Produces sequence", "D. All of above"], "a": "D"},
+                {"q": "What is @staticmethod?",
+                 "o": ["A. Class method", "B. Instance method", "C. Decorator", "D. A and C"], "a": "D"},
+                {"q": "What is monkey patching?",
+                 "o": ["A. Modifying runtime", "B. Adding features", "C. Dynamic changes", "D. All of above"], "a": "D"},
+                {"q": "What is GIL?",
+                 "o": ["A. Global lock", "B. Threading limitation", "C. Python feature", "D. All of above"], "a": "D"},
+                {"q": "What is __slots__?",
+                 "o": ["A. Memory optimization", "B. Attribute restriction", "C. Performance boost", "D. All of above"], "a": "D"},
+                {"q": "What is a metaclass?",
+                 "o": ["A. Class creator", "B. Type of class", "C. Advanced OOP", "D. All of above"], "a": "D"},
+                {"q": "What is threading.Lock() for?",
+                 "o": ["A. Synchronization", "B. Thread safety", "C. Resource control", "D. All of above"], "a": "D"},
+                {"q": "What is pickle used for?",
+                 "o": ["A. Serialization", "B. Object storage", "C. Data persistence", "D. All of above"], "a": "D"},
+                {"q": "What is @property?",
+                 "o": ["A. Getter method", "B. Read-only attribute", "C. Decorator", "D. All of above"], "a": "D"},
+                {"q": "What is a context manager?",
+                 "o": ["A. Resource handler", "B. with statement", "C. Cleanup tool", "D. All of above"], "a": "D"}
+            ],
+
+            # Level 5: Expert (10 questions)
+            5: [
+                {"q": "What is memoization?",
+                 "o": ["A. Caching", "B. Optimization", "C. Performance", "D. All of above"], "a": "D"},
+                {"q": "What is Big O notation?",
+                 "o": ["A. Complexity", "B. Performance", "C. Algorithm analysis", "D. All of above"], "a": "D"},
+                {"q": "What is a coroutine?",
+                 "o": ["A. Special generator", "B. Async tool", "C. Cooperative routine", "D. All of above"], "a": "D"},
+                {"q": "What is MRO?",
+                 "o": ["A. Method order", "B. Inheritance path", "C. Class hierarchy", "D. All of above"], "a": "D"},
+                {"q": "What is ABC?",
+                 "o": ["A. Abstract class", "B. Interface", "C. Blueprint", "D. All of above"], "a": "D"},
+                {"q": "What is a descriptor?",
+                 "o": ["A. Attribute control", "B. Protocol", "C. Advanced feature", "D. All of above"], "a": "D"},
+                {"q": "What is weakref?",
+                 "o": ["A. Non-owning reference", "B. Memory management", "C. Circular refs", "D. All of above"], "a": "D"},
+                {"q": "What is the diamond problem?",
+                 "o": ["A. Inheritance issue", "B. Multiple inheritance", "C. Ambiguity", "D. All of above"], "a": "D"},
+                {"q": "What is PyPy?",
+                 "o": ["A. Python implementation", "B. JIT compiler", "C. Faster Python", "D. All of above"], "a": "D"},
+                {"q": "What is asyncio?",
+                 "o": ["A. Async framework", "B. Event loop", "C. Concurrency", "D. All of above"], "a": "D"}
+            ]
+        }
+
+
