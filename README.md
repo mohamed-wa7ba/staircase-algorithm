@@ -13,15 +13,15 @@ Progress Tracking: Real-time scoring and level adjustment
 Clean Interface: Easy-to-use command line interface
 
 📂 File Structure
-python-quiz/
+staircase-algorithm/
 ├── main.py            # Main quiz application
 ├── questions.py       # Question database (50+ questions)
 └── README.md          # This documentation
 🚀 Installation
 Clone the repository:
 
-git clone https://github.com/mohamed-wa7ba/python-quiz.git
-cd python-quiz
+git clone https://github.com/mohamed-wa7ba/staircase-algorithm.git
+cd staircase-algorithm
 Ensure you have Python 3.7+ installed:
 
 python --version
